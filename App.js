@@ -18,7 +18,7 @@ export default function App() {
         <Image source={{ uri: 'https://eu1files.itslearning.com/data/900180/Skin/customer_login_logo.png' }}
           style={{ width: 125, height: 47 }} />
         <Image source={require('./images/user-avatar.png')}
-          style={{width: 125, height: 125}} />
+          style={{ width: 125, height: 125 }} />
         {/*  <View>
           <TextInput placeholder='name'></TextInput>
           <Button title='Press me' onPress={() => setCount(count + 1)} />
@@ -36,10 +36,15 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#fff',
+
   },
+
+
+
+
 
   leftBox: {
     padding: 20,
@@ -55,6 +60,8 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
     shadowRadius: 3,
     elevation: 5,
+    marginBottom: 15,
+    paddingBottom: 35,
   },
   name: {
     fontSize: 24,
